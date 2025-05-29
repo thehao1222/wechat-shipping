@@ -1,0 +1,23 @@
+{
+  "name": "li_thehao/wechat-shipping",
+  "description": "微信订单物流同步工具",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "li_thehao",
+      "email": "Li_thehao@email.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Li_thehao\\WechatShipping\\": "src/"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.5"
+  }
+}
