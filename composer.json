@@ -10,8 +10,15 @@
     }
   ],
   "require": {
-    "php": ">=7.0"
+    "php": ">=7.0",
+    "li_thehao/wechat-shipping": "0.1.0"
   },
+  "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/li_thehao/wechat-shipping.git"
+        }
+    ]
   "autoload": {
     "psr-4": {
       "Li_thehao\\WechatShipping\\": "src/"
